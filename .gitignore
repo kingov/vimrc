@@ -8,3 +8,4 @@ tags
 .DS_Store
 my_configs.vim
 my_plugins/*
+my_plugins
