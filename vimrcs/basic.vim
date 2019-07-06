@@ -33,6 +33,9 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" 鼠标可用
+set mouse=a
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
