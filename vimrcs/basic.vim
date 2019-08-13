@@ -34,7 +34,7 @@
 set history=500
 
 " 鼠标可用
-set mouse=a
+" set mouse=a
 
 " Enable filetype plugins
 filetype plugin on
