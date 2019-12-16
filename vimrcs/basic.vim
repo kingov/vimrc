@@ -116,9 +116,7 @@ set mat=2
 
 set number
 
-" emmet-vim的快速闭合标签
-let g:user_emmet_leader_key='<C-Z>'
-autocmd FileType html,css,vue,ejs,wxml,wxss EmmetInstall
+
 
 " No annoying sound on errors
 set noerrorbells
@@ -405,7 +403,10 @@ autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 autocmd FileType vue syntax sync fromstart
 
 
-
+" emmet-vim的快速闭合标签
+let g:user_emmet_mode='a'
+let g:user_emmet_leader_key='<C-Q>'
+autocmd FileType html,css,vue,ejs,wxml,wxss,tsx EmmetInstall
 
 
 
